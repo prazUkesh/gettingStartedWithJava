@@ -30,5 +30,30 @@ public class main {
           System.out.println(myInt);
           System.out.println(myDouble);
            */
+            // string methods
+           /*String name = "asodhoiasmnalsknclansldk";
+           System.out.println("string length is: "+ name.length());
+            String newName = name.toUpperCase();
+            System.out.println(newName);
+            String lowerName = newName.toLowerCase();
+            System.out.println(lowerName);
+            String greet = "myamyacha = boka";
+            System.out.println(greet.indexOf("my"));
+
+            for (int i = 0; i < 10; i++) {
+              if (i == 4) {
+                break;
+              }
+              System.out.println(i);
+            }
+
+            for (int i = 0; i < 10; i++) {
+              if (i == 4) {
+                continue;
+              }
+              System.out.println(i);
+            }*/
+
+            //Arrays
         }
 }
