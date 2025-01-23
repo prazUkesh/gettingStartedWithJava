@@ -55,5 +55,19 @@ public class main {
             }*/
 
             //Arrays
+
+
+
+            int[][] rNum = {{9,8,7},{6,5,4,3},{2,1,0}};
+
+            for(int i = 0; i < rNum.length; ++i){
+              for(int j = 0; j <rNum[i].length; ++j){
+                if(rNum[i][j]%2==0){
+                  System.out.println("Even: " + rNum[i][j] + "\n");
+                }
+                else{
+                  System.out.println("odd: " + rNum[i][j] + "\n");
+                }
+              }            }
         }
 }
