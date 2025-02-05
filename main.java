@@ -58,7 +58,7 @@ public class main {
 
 
 
-            int[][] rNum = {{9,8,7},{6,5,4,3},{2,1,0}};
+           /* int[][] rNum = {{9,8,7},{6,5,4,3},{2,1,0}};
 
             for(int i = 0; i < rNum.length; ++i){
               for(int j = 0; j <rNum[i].length; ++j){
@@ -68,6 +68,39 @@ public class main {
                 else{
                   System.out.println("odd: " + rNum[i][j] + "\n");
                 }
-              }            }
+              }            }*/
+
+
+  //methods
+  /*
+        greetUser();
+        TwoSum(7,5);
+       System.out.println( "sum with with return type: "+returnTwoSum(5, 5));
         }
+        
+public static void greetUser(){
+  System.out.println("Hello user");*/
+
+  System.out.println(numSum(2,3));
+  System.out.println(numSum(3.14,9.8));
+}
+/*
+
+Method body
+public static void TwoSum(int a , int b){
+ System.out.println("sum with no return type: "+(a+b) );
+}
+
+public static int returnTwoSum(int a , int b){
+ //System.out.println( a + b);
+ return a + b;
+
+}*/
+
+static int numSum(int x, int y){
+return x + y;}
+
+static double numSum(double x, double y){
+return x+y;
+}
 }
