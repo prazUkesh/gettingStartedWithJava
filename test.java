@@ -1,28 +1,17 @@
-
-import java.io.File;
-import java.io.IOException;
 import java.util.*;
+import java.io.File;
+   
 
 public class test {
     public static void main(String[] args){
+        Scanner userInput = new Scanner(System.in);
+
         loadingScreen();
     }
     static void loadingScreen(){
-        Scanner userInput = new Scanner(System.in);
 
         while (1>0) {
-            System.out.println("1) Record Income/Expense \n2) View Balance\n3) Print Statements\n4) exit\nEnter your choice: ");
-        int userChoice = userInput.nextInt();
-        
-
-        switch (userChoice) {
-            case 1:
-                recordTransaction();
-                break;
-        
-            default:
-                break;
-        }
+            
     }
     } 
     static void recordTransaction(){

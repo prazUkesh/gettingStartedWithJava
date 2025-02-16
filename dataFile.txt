@@ -1,0 +1,9 @@
+Transaction Type Transaction amount transaction category
+expenses		Rs.100.0		momo
+expenses		Rs.140.0		inDrive
+expenses		Rs.1850.0		ThailoBag
+expenses		Rs.4800.0		jacket
+income		Rs.6400.0		salary
+expenses		Rs.250.0		adapter
+expenses		Rs.500.0		coffee
+exp		Rs.500.0		seggs

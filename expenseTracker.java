@@ -1,8 +1,11 @@
-import java.util.Scanner;
+import java.util.*;
+import java.io.File;
 
 public class expenseTracker {
  public static void main(String[] args){
-
+File myFile = new File("expenseTracker.txt");
+    
+    // scanner for userInput
     Scanner scanner = new Scanner(System.in);
     double userBalance = 0.00d;
     
@@ -12,13 +15,11 @@ public class expenseTracker {
     
     switch (userChoice) {
         case 1:
-            
-            System.out.println("enter cash type, amount and category: ");
-            String cashType = scanner.next();
-            double amount = scanner.nextDouble();
-            String catergory = scanner.next();
-            System.err.println("cash type: "+ cashType + "\nAmount: "+amount+"\nCategory: "+catergory);
+            // taking user input through commandline
+            inputRecorder(userBalance);
            
+            //file handling code here
+
 
             ///inputRecorder(double userBalance);
             break;
@@ -36,6 +37,7 @@ public class expenseTracker {
 
 static void inputRecorder(double userBalance){
 System.out.println("enter income/expense: ");
+
 }
 static void balanceChecker(){
     System.out.println("your're broke, get a job: ");
